@@ -37,7 +37,7 @@ namespace _2_11
                 string gender = Console.ReadLine().ToLower();
 
                 // Check gender validity
-                if (gender != "m" && gender != "f" && gender != "M" && gender != "F")
+                if (gender != "m" && gender != "f")
                 {
                     Console.WriteLine("Invalid gender!");
                     continue;
